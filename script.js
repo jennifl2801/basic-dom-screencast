@@ -3,3 +3,10 @@
 /* 2. Select the first button and assign it to a variable called newTodoButton */
 
 /* 3. Select the second button and assign it to a variable called clearTodosButton */
+
+const todos = document.querySelectorAll(".todos");
+console.log(todos);
+
+const newTodoButton = document.querySelector(".button_action_new-todo");
+
+const clearTodoButton = document.querySelector(".button_action_clear-todos");
