@@ -4,7 +4,7 @@
 
 /* 3. Select the second button and assign it to a variable called clearTodosButton */
 
-const todos = document.querySelectorAll(".todos");
+const todos = document.querySelectorAll(".todo");
 console.log(todos);
 
 const newTodoButton = document.querySelector(".button_action_new-todo");
